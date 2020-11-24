@@ -2,15 +2,60 @@
 <html lang="en">
 
 <head>
-    <title>Am I handsome?</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Am I Handsome?</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="vendors/tailwind.min.css">
+
 </head>
 
-<body>
-    <img src="./img/background.jpg" alt="background" class="background">
+<body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
+	style="background-image:url('/img/background.jpg');">
+
+
+	<div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+
+		<!--Main Col-->
+		<div id="profile"
+			class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
+
+
+			<div class="p-4 md:p-12 text-center lg:text-left">
+
+				<h1 class="text-3xl font-bold pt-8 lg:pt-0">The guy in your screen is very handsome, right?</h1>
+			
+				<div class="pt-12 pb-8">
+					<button class="buttonYes bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-14 rounded-full">
+						Yes
+					</button>
+					<button class="buttonNo bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-14 rounded-full">
+						No
+					</button>
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--Img Col-->
+		<div class="w-full lg:w-2/5">
+			<!-- ảnh Namdz nè -->
+			<img src="./img/Namdz.jpg"
+				class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
+
+		</div>
+
+
+		<!-- thêm trăng sao vào =)) cho đẹp -->
+		<div class="absolute top-0 right-0 h-12 w-18 p-4">
+			<button>🌙</button>
+		</div>
+
+	</div>
+
+
 </body>
 
 </html>
