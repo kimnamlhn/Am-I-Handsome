@@ -3,6 +3,11 @@
 
 // k cần xài js, xài css là được rồi
 // khi nào rảnh fix tiếp =))
+function clickYes()
+{
+	alert("I also know that, thank you");
+}
+
 function MoveButton()
 {
 	var height = window.innerHeight;

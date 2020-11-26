@@ -27,6 +27,7 @@
 }
 .buttonYes{
     margin-left: 15px;
+    outline: none;
 }
 
 @keyframes example {
